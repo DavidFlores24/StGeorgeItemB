@@ -8,10 +8,13 @@ body
 
 .topic
 {
-	color: rgb(255, 247, 225);
-	height: 700px;
+	color: #fff;
+	width: 100%;
+	height: 110px;
 	text-align: center;
 	transition:.5s;
+	margin:0 10px 10px;
+	padding-bottom: 40px;
 }
 
 .instruction
@@ -40,7 +43,7 @@ h2
 
 #topic1
 {
-	background-color: rgb(150, 187, 193);
+	background-color: rgb(253, 186, 77);
 }
 
 #topic1:hover
@@ -50,7 +53,7 @@ h2
 
 #topic2
 {
-	background-color: rgb(79, 156, 166);
+	background-color: rgb(245, 205, 93);
 }
 
 #topic2:hover
@@ -60,7 +63,7 @@ h2
 
 #topic3
 {
-	background-color: rgb(41, 88, 75);
+	background-color: rgb(232, 116, 36);
 }
 
 #topic3:hover
@@ -70,7 +73,7 @@ h2
 
 #topic4
 {
-	background-color: rgb(155,177,193);
+	background-color: rgb(253, 186, 77);
 }
 
 #topic4:hover
@@ -80,7 +83,7 @@ h2
 
 #topic5
 {
-	background-color: rgb(62,132,190);
+	background-color: rgb(245, 205, 93);
 }
 
 #topic5:hover
@@ -90,7 +93,7 @@ h2
 
 #topic6
 {
-	background-color: rgb(19,55,92);
+	background-color: rgb(232, 116, 36);
 }
 
 #topic6:hover
