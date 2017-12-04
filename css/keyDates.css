@@ -1,15 +1,19 @@
 @charset "UTF-8";
 /* CSS Document */
+
+
 body {
 	line-height: 2.5em;
 }
 
+p i {
+	font-size: 1em;
+}
 
 .item
 {
 	width: auto;
 	height: 700px;
-	background-color: #9bb1c1;
 }
 
 .item img
@@ -37,8 +41,7 @@ body {
 	width: 50%;
 	float:left;
 	top:0;
-	left:0;
-	background-color: rgba(232, 116, 36, 0.8);
+	left:12px;
 	overflow-x: auto;
 }
 
@@ -76,7 +79,7 @@ body {
 	position:absolute;
 	bottom:5px;
 	right:20px;
-	background-color: rgba(232, 116, 36, 0.8);
+	background-color:rgba(232, 116, 36, 0.7);
 	text-decoration: none;
 }
 
@@ -100,11 +103,12 @@ a {
 
 .scroll {
 	position:absolute;
-	left:50%;
+	background-color:rgba(232, 116, 36, 0.7);
+	left:52%;
 	width: 100px;
 	height: 50px;
 	z-index: 1;
-	color: #FFF;
+	color:#FFF;
 }
 
 .scroll-down {
@@ -133,4 +137,3 @@ i {
 .carousel-control.left {
 	left:50%;
 }
-
