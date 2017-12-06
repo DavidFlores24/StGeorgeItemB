@@ -25,3 +25,10 @@ footer p
 {
 	background-color: rgba(245, 205, 93, 0.7);
 }
+
+body {
+	background: url(../img/Audio.jpg);
+	background-size: cover;
+	color: rgb(255, 247, 225);
+	line-height: 2.2em;
+}
